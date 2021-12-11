@@ -27,7 +27,7 @@ HELPABLE = {}
 
 async def initiate_bot():
     with console.status(
-        "[magenta] Booting up The Yukki Music Bot...",
+        "[magenta] Booting up The ıllıllı⭐🌟 M͙A͙M͙B͙A͙ V͙C͙ B͙O͙T͙ 🌟⭐ıllıllı...",
     ) as status:
         console.print("┌ [red]Clearing MongoDB cache...")
         try:
@@ -78,12 +78,12 @@ async def initiate_bot():
         await asyncio.sleep(2.4)
         await startup_delete_last(_____)
     console.print(
-        "[bold green]Congrats!! Yukki Music Bot has started successfully!\n"
+        "[bold green]Congrats!! 𝓜𝓐𝓜𝓑𝓐 𝓥𝓒 𝓑𝓞𝓣 has started successfully!\n"
     )
     try:
         await app.send_message(
             LOG_GROUP_ID,
-            "<b>Congrats!! Music Bot has started successfully!</b>",
+            "<b>Congrats!! 𝓥𝓒 𝓑𝓞𝓣 has started successfully!</b>",
         )
     except Exception as e:
         print(
